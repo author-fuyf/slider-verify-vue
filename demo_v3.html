@@ -1,0 +1,66 @@
+<meta charset="utf-8">
+<title>SliderVerify demo</title>
+<link rel="stylesheet" href="./lib/SliderVerify.css">
+<!-- <link rel="stylesheet" href="https://portal.fuyunfeng.top/api/files/download_file?file_name=SliderVerify-v3.css"> -->
+<style>
+  .demo {
+    padding-left: 50px;
+    margin: 30px auto 0;
+  }
+
+  .opreation span {
+    margin-left: 20px;
+  }
+</style>
+
+<body>
+  <div id="app">
+    <div class="demo">
+      <div class="opreation">
+        <span @click="isShowSelf = !isShowSelf">isShowSelf</span>
+        <span @click="width = 400">width 400</span>
+        <span @click="height = 200">height 220</span>
+        <span @click="imgUrl = 'https://portal.fuyunfeng.top/files/images/SliderVerify-31.jpg'">imgUrl</span>
+        <span @click="sText = '成功'">sText 成功</span>
+        <span @click="eText = '失败'">eText 失败</span>
+        <span @click="isBorder = !isBorder">isBorder 取反</span>
+        <span @click="isParentNode = !isParentNode">isParentNode 取反</span>
+        <span @click="isCloseBtn = !isCloseBtn">isCloseBtn 取反</span>
+        <span @click="isReloadBtn = !isReloadBtn">isReloadBtn 取反</span>
+      </div>
+      <slider-verify v-model:is-show-self="isShowSelf" :width="width" :height="height" :img-url="imgUrl" :s-text="sText"
+        :e-text="eText" :is-border="isBorder" :is-close-btn="isCloseBtn" :is-reload-btn="isReloadBtn"
+        :is-parent-node="isParentNode" @reload="emitChange('reload')" @show="emitChange('show')"
+        @hide="emitChange('hide')" @close="emitChange('close')" @success="emitChange('success')"
+        @fail="emitChange('fail')"></slider-verify>
+    </div>
+  </div>
+</body>
+<script src="https://unpkg.com/vue@3.3.2/dist/vue.global.js"></script>
+<script src="./lib/SliderVerify.umd.js"></script>
+<!-- <script src="https://portal.fuyunfeng.top/api/files/download_file?file_name=SliderVerify.umd-v3.js"></script> -->
+
+<script>
+  const app = Vue.createApp({
+    data() {
+      return {
+        isShowSelf: true,
+        width: 300,
+        height: 180,
+        imgUrl: '',
+        sText: 'sText',
+        eText: 'eText',
+        isBorder: true,
+        isCloseBtn: true,
+        isReloadBtn: true,
+        isParentNode: false
+      }
+    },
+    methods: {
+      emitChange(type) {
+        console.log(type)
+      }
+    }
+  })
+  app.use(SliderVerify).mount('#app')
+</script>

@@ -1,0 +1,38 @@
+{
+  "name": "vite_demi",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "gulp": "gulp lib",
+    "preview": "vite preview",
+    "build:lib": "vite build --mode lib && mv lib/style.css lib/SliderVerify.css",
+    "build:all": "npm run build:lib && cd vue2 && npm run build:lib"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.7.1",
+    "vue": "^3.2.47",
+    "vue-demi": "^0.14.1",
+    "vant": "^3.0.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
+    "rollup-plugin-rename": "^1.0.1",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vite": "^4.3.2"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  }
+}
