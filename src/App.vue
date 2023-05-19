@@ -22,7 +22,7 @@
     </a>
   </div>
   <div class="opreation">
-    <!-- <span @click="imgUrl = 'https://portal.fuyunfeng.top/files/images/SliderVerify-31.jpg'">imgUrl</span> -->
+    <span @click="imgUrl = 'https://portal.fuyunfeng.top/files/images/SliderVerify-31.jpg'">imgUrl</span>
     <span @click="isShowSelf = !isShowSelf">isShowSelf</span>
     <span @click="width = 400">width 400</span>
     <span @click="height = 200">height 220</span>
@@ -46,6 +46,7 @@
     @close="close"
     @success="success"
     @fail="fail"
+    @imgError="imgError"
   ></SliderVerify>
   <HelloWorld msg="Vite + Vue" />
 </template>
@@ -84,6 +85,9 @@ export default defineComponent({
     const reload = () => {
       console.log('reload')
     }
+    const imgError = () => {
+      console.log('imgError')
+    }
     return {
       ...toRefs(state),
       show,
@@ -92,6 +96,7 @@ export default defineComponent({
       success,
       fail,
       reload,
+      imgError
     }
   },
 })

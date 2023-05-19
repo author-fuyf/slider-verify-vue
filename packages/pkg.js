@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import SliderVerify from './SliderVerify/index.vue' // 容器组件
+import SliderVerify from './SliderVerify/index.vue'
 
 const pkgs = {
   SliderVerify,

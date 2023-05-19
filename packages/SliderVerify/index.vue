@@ -1,9 +1,5 @@
 <template>
   <div id="plugin-slider-verify_containe">
-    <!-- <div style="display: none">
-      <img ref="bgImgRef" crossOrigin :src="imgUrl" v-if="imgUrl" />
-      <img ref="bgImgRef" :src="require(`./images/bg${bgRandom}.jpg`)" v-else />
-    </div> -->
     <div
       id="slider-verify"
       :class="{ 'is-border': isBorder }"
@@ -15,16 +11,11 @@
       >
         <div id="canvas_containe">
           <div
-            class="loading"
+            class="flex-center"
             :style="{'width': `${width}px`, 'height': `${height}px`}"
             v-if="loading"
           >
-            <!-- <loading
-              type="circular"
-              vertical
-            >
-              <span>加载中...</span>
-            </loading> -->
+            <Loading></Loading>
           </div>
           <canvas
             id="bg_canvas"
@@ -133,6 +124,7 @@
 </template>
 <script>
 // import { Popup, Loading, Toast } from 'vant';
+import Loading from '../Loading/index.vue'
 
 const l = 42 // 滑块边长
 const r = 9 // 滑块圆半径
@@ -227,7 +219,8 @@ export default {
   },
   components: {
     // Popup,
-    // Loading
+    // Loading,
+    Loading
   },
   mounted() {
     console.log('SliderVerify init')
@@ -284,6 +277,7 @@ export default {
         //   message: '图片加载失败',
         //   position: 'top'
         // })
+        this.$emit('imgError')
         img.src = 'https://portal.fuyunfeng.top/files/images/SliderVerify-error.png'
       }
 
@@ -325,7 +319,6 @@ export default {
 
       img.onload = () => {
         this.loading = false
-        // console.log('onload')
 
         this.draw(bg_ctx, { x: blkTilesW, y: Y, r: r }, 'fill')
         this.draw(block_ctx, { x: blkTilesW, y: Y, r: r }, 'clip')
@@ -436,13 +429,12 @@ export default {
 </script>
 <style scoped lang="stylus">
 // ::v-deep .van-overlay {
-//   position: absolute;
+// position: absolute;
 // }
 
 // ::v-deep .van-popup {
-//   position: absolute;
+// position: absolute;
 // }
-
 .result-popup {
   height: 30px;
   line-height: 30px;
@@ -485,7 +477,7 @@ export default {
         cursor: pointer;
       }
 
-      .loading {
+      .flex-center {
         display: flex;
         justify-content: center;
         align-items: center;
