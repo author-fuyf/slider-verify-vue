@@ -12,6 +12,13 @@ return /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ 639:
+/***/ (function(module) {
+
+module.exports = "data:image/png;base64,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";
+
+/***/ }),
+
 /***/ 897:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -144,7 +151,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!../packages/SliderVerify/index.vue?vue&type=template&id=388585b9&scoped=true&
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!../packages/SliderVerify/index.vue?vue&type=template&id=32efbdee&scoped=true&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -177,12 +184,12 @@ var render = function render() {
       "id": "canvas_containe"
     }
   }, [_vm.loading ? _c('div', {
-    staticClass: "loading",
+    staticClass: "flex-center",
     style: {
       'width': `${_vm.width}px`,
       'height': `${_vm.height}px`
     }
-  }) : _vm._e(), _c('canvas', {
+  }, [_c('Loading')], 1) : _vm._e(), _c('canvas', {
     directives: [{
       name: "show",
       rawName: "v-show",
@@ -312,8 +319,164 @@ var render = function render() {
 };
 var staticRenderFns = [];
 
-;// CONCATENATED MODULE: ../packages/SliderVerify/index.vue?vue&type=template&id=388585b9&scoped=true&
+;// CONCATENATED MODULE: ../packages/SliderVerify/index.vue?vue&type=template&id=32efbdee&scoped=true&
 
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!../packages/Loading/index.vue?vue&type=template&id=5be5b68b&scoped=true&
+var Loadingvue_type_template_id_5be5b68b_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('div', {
+    staticClass: "loading-container"
+  }, [_c('img', {
+    staticClass: "loading-img",
+    attrs: {
+      "src": __webpack_require__(639),
+      "alt": ""
+    }
+  }), _c('div', {
+    staticClass: "text"
+  }, [_vm._v(_vm._s(_vm.text))])]);
+};
+var Loadingvue_type_template_id_5be5b68b_scoped_true_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ../packages/Loading/index.vue?vue&type=template&id=5be5b68b&scoped=true&
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!../packages/Loading/index.vue?vue&type=script&lang=js&
+/* harmony default export */ var Loadingvue_type_script_lang_js_ = ({
+  name: 'Loading',
+  props: {
+    text: {
+      type: String,
+      default: '加载中...'
+    }
+  }
+});
+;// CONCATENATED MODULE: ../packages/Loading/index.vue?vue&type=script&lang=js&
+ /* harmony default export */ var packages_Loadingvue_type_script_lang_js_ = (Loadingvue_type_script_lang_js_); 
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-79.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-79.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-79.use[2]!./node_modules/stylus-loader/index.js??clonedRuleSet-79.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!../packages/Loading/index.vue?vue&type=style&index=0&id=5be5b68b&prod&lang=stylus&scoped=true&
+// extracted by mini-css-extract-plugin
+
+;// CONCATENATED MODULE: ../packages/Loading/index.vue?vue&type=style&index=0&id=5be5b68b&prod&lang=stylus&scoped=true&
+
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent(
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier /* server only */,
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options =
+    typeof scriptExports === 'function' ? scriptExports.options : scriptExports
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) {
+    // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () {
+          injectStyles.call(
+            this,
+            (options.functional ? this.parent : this).$root.$options.shadowRoot
+          )
+        }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functional component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection(h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing ? [].concat(existing, hook) : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+;// CONCATENATED MODULE: ../packages/Loading/index.vue
+
+
+
+;
+
+
+/* normalize component */
+
+var component = normalizeComponent(
+  packages_Loadingvue_type_script_lang_js_,
+  Loadingvue_type_template_id_5be5b68b_scoped_true_render,
+  Loadingvue_type_template_id_5be5b68b_scoped_true_staticRenderFns,
+  false,
+  null,
+  "5be5b68b",
+  null
+  
+)
+
+/* harmony default export */ var Loading = (component.exports);
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!../packages/SliderVerify/index.vue?vue&type=script&lang=js&
 // import { Popup, Loading, Toast } from 'vant';
 
@@ -410,7 +573,8 @@ const Y = 70; // 滑块Y轴距离
   },
   components: {
     // Popup,
-    // Loading
+    // Loading,
+    Loading: Loading
   },
   mounted() {
     console.log('SliderVerify init');
@@ -459,6 +623,7 @@ const Y = 70; // 滑块Y轴距离
         //   message: '图片加载失败',
         //   position: 'top'
         // })
+        this.$emit('imgError');
         img.src = 'https://portal.fuyunfeng.top/files/images/SliderVerify-error.png';
       };
 
@@ -496,8 +661,6 @@ const Y = 70; // 滑块Y轴距离
       block_canvas.height = height;
       img.onload = () => {
         this.loading = false;
-        // console.log('onload')
-
         this.draw(bg_ctx, {
           x: blkTilesW,
           y: Y,
@@ -607,108 +770,10 @@ const Y = 70; // 滑块Y轴距离
 });
 ;// CONCATENATED MODULE: ../packages/SliderVerify/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var packages_SliderVerifyvue_type_script_lang_js_ = (SliderVerifyvue_type_script_lang_js_); 
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-79.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-79.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-79.use[2]!./node_modules/stylus-loader/index.js??clonedRuleSet-79.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!../packages/SliderVerify/index.vue?vue&type=style&index=0&id=388585b9&prod&scoped=true&lang=stylus&
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-79.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-79.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-79.use[2]!./node_modules/stylus-loader/index.js??clonedRuleSet-79.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!../packages/SliderVerify/index.vue?vue&type=style&index=0&id=32efbdee&prod&scoped=true&lang=stylus&
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ../packages/SliderVerify/index.vue?vue&type=style&index=0&id=388585b9&prod&scoped=true&lang=stylus&
-
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent(
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier /* server only */,
-  shadowMode /* vue-cli only */
-) {
-  // Vue.extend constructor export interop
-  var options =
-    typeof scriptExports === 'function' ? scriptExports.options : scriptExports
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) {
-    // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () {
-          injectStyles.call(
-            this,
-            (options.functional ? this.parent : this).$root.$options.shadowRoot
-          )
-        }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functional component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection(h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing ? [].concat(existing, hook) : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
+;// CONCATENATED MODULE: ../packages/SliderVerify/index.vue?vue&type=style&index=0&id=32efbdee&prod&scoped=true&lang=stylus&
 
 ;// CONCATENATED MODULE: ../packages/SliderVerify/index.vue
 
@@ -719,23 +784,22 @@ function normalizeComponent(
 
 /* normalize component */
 
-var component = normalizeComponent(
+var SliderVerify_component = normalizeComponent(
   packages_SliderVerifyvue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
   null,
-  "388585b9",
+  "32efbdee",
   null
   
 )
 
-/* harmony default export */ var SliderVerify = (component.exports);
+/* harmony default export */ var SliderVerify = (SliderVerify_component.exports);
 ;// CONCATENATED MODULE: ../packages/pkg.js
 /* eslint-disable */
 // @ts-nocheck
 
- // 容器组件
 
 const pkgs = {
   SliderVerify: SliderVerify
