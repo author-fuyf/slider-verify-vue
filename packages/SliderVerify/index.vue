@@ -469,7 +469,11 @@ export default {
 
     #canvas_containe {
       position: relative;
-      line-height: 0;
+
+      // line-height: 0;
+      canvas {
+        vertical-align: top;
+      }
 
       #block_canvas {
         position: absolute;

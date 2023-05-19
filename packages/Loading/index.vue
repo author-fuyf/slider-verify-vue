@@ -23,6 +23,7 @@ export default {
 .loading-container {
   color: #969799;
   font-size: 14px;
+  text-align: center;
 
   .loading-img {
     width: 32px;
@@ -41,7 +42,7 @@ export default {
   }
 
   .text {
-    margin-top: 15px;
+    margin-top: 5px;
   }
 }
 </style>
